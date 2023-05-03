@@ -1,0 +1,149 @@
+body {
+    font-family: Arial;
+    background-color: #191919;
+    color: #191919;
+}
+
+#cabecalho {
+    text-align: center;
+    height: 239px;
+    border: 1px solid; background-image: url(kratos.jpg);background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#links-cabecalho{
+    margin: 250px 0 0 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(110,28,28,1) 100%);
+}
+
+#corpo {
+    margin: 20px 0 0 0;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+    color: #191919
+}
+
+h1 {
+    font-family: 'Gill Sans MT';
+    font-size: 50px;
+}
+
+.botao-padrao {
+    width: 200px;
+    height: 50px;
+    background-color: #ee0000;
+    color: #272727;
+    font-weight: bolder;
+    font-family: arial;
+    border-radius: 10px;
+    border: none;
+}
+
+.botao-padrao:hover {
+    background-color: #191919;
+    color: #ee0000;
+    border: 2px solid #ee0000;
+    cursor: pointer;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li:hover {
+    background-color: #ee0000;
+    border-radius: 5px 5px 0 0;
+    color: #272727;   
+}
+
+#lista-cabecalho {
+    border-bottom:  solid;
+}
+
+#corpo-sobre {
+    padding: 10px;
+    width: 800px;
+    height: 420px;
+    float: inline-start;
+    /* background-color: #A65B61;   */
+    font-size: larger;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+    float: left;
+}
+
+#imagem-real {
+    width: 800px;
+    height: 420px;
+    margin: 20px 0 0 20px;
+    border-radius: 5px;
+}
+
+#corpo-imagem{
+    width: 49%;
+    height: 420px;
+    float: left;
+}
+
+#imagem {
+    width: 743px;
+    border-radius: 10px;
+    float: left;
+    margin: 1px; 
+}
+
+#formacoes {
+    margin: 500px 0 0 0;
+    width: 100%;
+    height: 420px;
+    /* float: inline-end; */
+    text-align: center;
+    background-color: #272727;
+}
+
+.card {
+    background-color: #191919;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    float: inline-end;
+    text-align: center;
+}
+
+.text {
+    width: 400px;
+    height: 25px;
+    border: 2px solid #ee0000;
+    border-radius: 10px;
+    color:#c4c4c4; 
+    font-weight: bold;
+    text-align: center; 
+    background-color: #272727;
+}
+
+#btn-quero-receber {
+    width: 136px;
+    height: 32px;
+}
+
